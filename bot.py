@@ -7,6 +7,7 @@ client = commands.Bot(command_prefix = ";")
 
 @client.event
 async def on_ready():
+    await client.change_presence(activity=discord.Streaming(platform="cookie's crack dungeon", name="my painful dad jokes", url="https://reddit.com/r/dadjokes"))
     print("Bot is ready")
 
 @client.command()
@@ -20,4 +21,4 @@ async def info(ctx):
     time.sleep(1)
     await ctx.send("**If you want a dad joke, just do ';dadjoke', Its that easy!**")
 
-client.run("pp")
+client.run("")
