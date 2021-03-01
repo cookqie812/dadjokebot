@@ -1,4 +1,4 @@
-# shittydadjokebot
+
 
 DO ;dad OR ;info FOR HELP
 
